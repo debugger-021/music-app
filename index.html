@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body class="bg-black">
+    <div class="page flex">
+        <div class="left flex">
+            <div class="left-part1 flex bg-grey">
+                <div class="cross flex">
+                    <img class="logo invert" src="logo.svg" alt="Spotify">
+                    <img class="close invert" src="close.svg">
+                </div>
+                <div class="home flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 bneLcE e-9541-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M12.5 3.247a1 1 0 0 0-1 0L4 7.577V20h4.5v-6a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 0 1 3 0l7.5 4.33a2 2 0 0 1 1 1.732V21a1 1 0 0 1-1 1h-6.5a1 1 0 0 1-1-1v-6h-3v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.577a2 2 0 0 1 1-1.732l7.5-4.33z">
+                        </path>
+                    </svg>
+                    <p style="margin-top: 7px;">Home</p>
+                </div>
+                <div class="search flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 bHdpig e-9541-icon M9l40ptEBXPm03dU3X1k" data-testid="search-icon"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z">
+                        </path>
+                    </svg>
+                    <p style="margin-top: 6px;">Search</p>
+                </div>
+            </div>
+            <div class="left-part2 bg-grey">
+                <header class="flex">
+                    <img class="invert" src="library.svg" alt="library">
+                    <div class="library">Your Library</div>
+                    <img class="invert" src="add.svg" alt="add playlist">
+                </header>
+                <main>
+                    <ul>
+                    </ul>
+                </main>
+                <footer>
+                    <div class="footer-links flex">
+                        <div class="links">Legal</div>
+                        <div class="links">Safety & Privacy Center</div>
+                        <div class="links">Privacy Policy</div>
+                        <div class="links">Cookies</div>
+                        <div class="links">About Ads</div>
+                        <div class="links">Accessibility</div>
+                    </div>
+                    <div class="globe invert">
+                        <button class="b1 flex">
+                            <img src="lang.svg" alt="Globe">
+                            <div id="lang">English</div>
+                        </button>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="right bg-grey">
+            <header class="flex">
+                <div class="newIcons flex">
+                    <img class="ham invert" src="hamburger.svg" alt="hamburger">
+                    <div class="icons flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="#818181"
+                                d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            <path fill="#818181"
+                                d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="entry-btns flex">
+                    <button class="sign-in flex">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </header>
+            <main>
+                <h2>Spotify Playlists</h2>
+                <div class="cards-cont flex">
+                </div>
+            </main>
+            <footer>
+                <div class="play-bar">
+                    <div class="bar flex">
+                        <div class="songDur"></div>
+                        <div class="songTime"></div>
+                    </div>
+                    <div class="playbtns flex invert">
+                        <div class="play1 flex">
+                            <svg id='previous' width="50" height="50" viewBox="0 0 50 50"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="12" width="4" height="26" fill="black" />
+                                <polygon points="36,10 14,25 36,40" fill="black" />
+                            </svg>
+                            </svg>
+                            <img id='play' src="play.svg" alt="play">
+                            <svg id='next' width="50" height="50" viewBox="0 0 50 50"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="14,10 36,25 14,40" fill="black" />
+                                <rect x="36" y="12" width="4" height="26" fill="black" />
+                            </svg>
+                        </div>
+                        <div class="volume flex invert">
+                            <img src="volume.svg">
+                            <input type="range" value="100" >
+                        </div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+</html>
